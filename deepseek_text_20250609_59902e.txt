@@ -1,0 +1,8 @@
+python>=3.8
+ccxt==2.6.94
+pandas==1.5.3
+numpy==1.24.3
+pyqt5==5.15.9
+matplotlib==3.7.1
+ta==0.10.2
+python-dotenv==1.0.0

@@ -1,0 +1,26 @@
+auto_trading_bot/
+│
+├── bot/                      # Module principale ale botului
+│   ├── __init__.py
+│   ├── core.py               # Logică de bază a botului
+│   ├── strategies.py         # Implementări ale strategiilor
+│   ├── risk_management.py    # Managementul riscului
+│   ├── broker_api.py         # Interfața cu platforma de trading
+│   └── data_handler.py       # Prelucrarea datelor de piață
+│
+├── ui/                       # Interfața utilizator
+│   ├── __init__.py
+│   ├── main_window.py        # Fereastra principală
+│   ├── dashboard.py          # Panoul de control
+│   ├── charts.py             # Vizualizarea graficelor
+│   └── settings.py           # Setările botului
+│
+├── config/                   # Fișiere de configurare
+│   ├── config.json           # Configurația globală
+│   └── strategies.json       # Setări strategii
+│
+├── tests/                    # Teste
+│   └── ...
+│
+├── requirements.txt          # Dependințe
+└── README.md                 # Documentație și tutorial
